@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM --platform=linux/amd64 python:3.8-slim-buster
 
 RUN apt-get update && apt-get install --yes libmagic-dev
 
