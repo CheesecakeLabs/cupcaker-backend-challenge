@@ -10,7 +10,7 @@ boto3==1.18.42
 drf-spectacular==0.21.0
 
 # Images
-Pillow==9.0.0
+Pillow==9.0.1
 django-versatileimagefield==2.2
 
 # REST Framework
