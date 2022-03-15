@@ -12,9 +12,6 @@ Docker Compose is used _just_ for development environment. The Dockerfile works 
 $ pyenv virtualenv 3.8.0 <CupcakerChallenge>
 $ pyenv activate <CupcakerChallenge>
 $ pip install Django==2.2.7
-$ django-admin.py startproject \
-    --template=https://github.com/CheesecakeLabs/django-drf-boilerplate/archive/master.zip \
-    <CupcakerChallenge> .
 $ pip install -r src/config/requirements/dev.txt
 $ python src/manage.py runserver
 ```
@@ -22,9 +19,6 @@ $ python src/manage.py runserver
 ## How to install with Docker Compose
 
 ```bash
-$ django-admin.py startproject \
-  --template=https://github.com/CheesecakeLabs/django-drf-boilerplate/archive/master.zip \
-  <CupcakerChallenge> .
 $ docker-compose up
 ```
 
