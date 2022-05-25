@@ -18,7 +18,7 @@ djangorestframework==3.13.1
 django-cors-headers==3.8.0
 
 # JSON Web Token
-PyJWT==2.1.0
+PyJWT==2.4.0
 djangorestframework-simplejwt==4.8.0
 
 # Database
